@@ -14,12 +14,6 @@ class AppComponent extends React.Component {
     super(props);
 
     console.log(props);
-
-    this.state = {
-      timer: undefined
-    };
-
-    this.autoToggle = this.autoToggle.bind(this);
   }
 
   componentDidMount() {
